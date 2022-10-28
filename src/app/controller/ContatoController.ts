@@ -27,7 +27,7 @@ class ContatoController {
 
     public async comentario(req: Request, res: Response) {
 
-        const data = new Date().toLocaleDateString(); 
+        const data = new Date().toDateString();
 
         const { nome, email, conteudo } = req.body
 
